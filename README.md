@@ -66,7 +66,7 @@ Formato: `YYMMDD-PPSQ`
 A tela do **Cliente** permite emitir senhas pelos três tipos disponíveis. Ao pressionar um botão, o sistema gera automaticamente a senha formatada `YYMMDD-PPSQ` e a exibe no campo.
 
 ```
-![Imagem da tela Cliente](screenshots/tab1.png)
+![Imagem da tela Cliente](https://raw.githubusercontent.com/Masccw/MobileTicketsIonic/main/screenshots/tab1.png)
 ```
 
 ### Aba 2 — Atendente

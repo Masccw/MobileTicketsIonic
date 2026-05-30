@@ -66,7 +66,7 @@ Formato: `YYMMDD-PPSQ`
 A tela do **Cliente** permite emitir senhas pelos três tipos disponíveis. Ao pressionar um botão, o sistema gera automaticamente a senha formatada `YYMMDD-PPSQ` e a exibe no campo.
 
 ```
-![Imagem da tela Cliente](src/assets/tab1.png)
+![Imagem da tela Cliente](assets/tab1.png)
 ```
 
 ### Aba 2 — Atendente
@@ -74,7 +74,7 @@ A tela do **Cliente** permite emitir senhas pelos três tipos disponíveis. Ao p
 A tela do **Atendente** exibe a última senha emitida e o total na fila para apoio ao AA.
 
 ```
-![Imagem da tela Atendente](src/assets/tab2.png)
+![Imagem da tela Atendente](assets/tab2.png)
 ```
 
 ### Aba 3 — Relatórios
@@ -82,7 +82,7 @@ A tela do **Atendente** exibe a última senha emitida e o total na fila para apo
 A tela de **Relatórios** apresenta o consolidado em tempo real de senhas emitidas por tipo e o total geral.
 
 ```
-![Imagem da tela Relatórios](src/assets/tab3.png)
+![Imagem da tela Relatórios](assets/tab3.png)
 ```
 
 ---
@@ -132,6 +132,10 @@ MobileTicketsIonic/
 │   └── app/
 │       ├── services/
 │       │   └── senhas.service.ts       ← Serviço central de senhas
+│       ├── assets/                       
+│       │   ├── tab1.png
+│       │   ├── tab2.png
+│       │   └── tab3.png
 │       ├── tab1/                       ← Tela Cliente
 │       │   ├── tab1.page.ts
 │       │   ├── tab1.page.html

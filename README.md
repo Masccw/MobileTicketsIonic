@@ -65,25 +65,19 @@ Formato: `YYMMDD-PPSQ`
 
 A tela do **Cliente** permite emitir senhas pelos três tipos disponíveis. Ao pressionar um botão, o sistema gera automaticamente a senha formatada `YYMMDD-PPSQ` e a exibe no campo.
 
-```
-![Imagem da tela Cliente](https://raw.githubusercontent.com/Masccw/MobileTicketsIonic/main/screenshots/tab1.png)
-```
+![Aba Cliente](screenshots/tab1.png)
 
 ### Aba 2 — Atendente
 
 A tela do **Atendente** exibe a última senha emitida e o total na fila para apoio ao AA.
 
-```
-![Imagem da tela Atendente](screenshots/tab2.png)
-```
+![Aba Atendente](screenshots/tab2.png)
 
 ### Aba 3 — Relatórios
 
 A tela de **Relatórios** apresenta o consolidado em tempo real de senhas emitidas por tipo e o total geral.
 
-```
-![Imagem da tela Relatórios](screenshots/tab3.png)
-```
+![Aba Relatórios](screenshots/tab3.png)
 
 ---
 
@@ -132,10 +126,6 @@ MobileTicketsIonic/
 │   └── app/
 │       ├── services/
 │       │   └── senhas.service.ts       ← Serviço central de senhas
-│       ├── assets/                       
-│       │   ├── tab1.png
-│       │   ├── tab2.png
-│       │   └── tab3.png
 │       ├── tab1/                       ← Tela Cliente
 │       │   ├── tab1.page.ts
 │       │   ├── tab1.page.html
@@ -165,6 +155,10 @@ MobileTicketsIonic/
 ├── src/global.scss
 ├── src/index.html
 ├── src/main.ts
+├── screenshots
+│    ├── tab1.png
+│    ├── tab2.png
+│    └── tab3.png
 ├── angular.json
 ├── capacitor.config.ts
 ├── ionic.config.json
